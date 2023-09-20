@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-}
+} */
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: flex;
+  justify-content: center;
+  line-height: 32px;
+  letter-spacing: -0.003em;
+  color: #242424;
+  font-size: 20px;
+  /* background-image: url("../public/images/bg-network.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto; */
+}
+
+main {
+}
+
+.leaflet-marker-icon {
+  width: 26px !important;
 }
