@@ -2,9 +2,9 @@ const Questionnaire = () => {
   return (
     <div className="bg-dark-blue text-white font-sans drop-shadow-lg flex flex-col items-center justify-center p-10 gap-7 w-full sm:w-96">
       <h1 className="text-3xl font-semibold ">Next Steps</h1>
-      <ol className="list-decimal text-lg">
-        <li>Complete a brief questionnaire</li>
-        <li>Speak with a trial coordinator</li>
+      <ol className="text-lg text-center 2xs:text-justify">
+        <li>1. Complete a brief questionnaire</li>
+        <li>2. Speak with a trial coordinator</li>
       </ol>
       <a
         href="#"

@@ -35,13 +35,20 @@ export default function Home() {
         <section className="flex flex-col gap-5 px-8 md:px-20 2xl:pr-0">
           <h2 className="font-bold text-2xl font-sans">Background</h2>
           <div>
-            <Image
-              src={`/images/stock-image.png`}
-              width={500}
-              height={500}
-              alt="picture"
-              className="mb-8 drop-shadow-lg lg:float-right lg:ml-8"
-            />
+            <div className="relative w-full h-48 2xs:h-60 sm:h-96 lg:w-1/2 2xl:w-3/5 mb-8 drop-shadow-lg lg:float-right lg:ml-8">
+              <Image
+                src="/images/stock-image.PNG"
+                // width={500}
+                // height={500}
+                // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                // sizes="100vw"
+                fill
+                objectFit="cover"
+                alt="picture"
+                // className="mb-8 drop-shadow-lg lg:float-right lg:ml-8"
+              />
+            </div>
+
             <p className="mb-4">
               Mild Cognitive Impairment (MCI) causes a slight but noticeable
               decline in mental abilities, such as memory loss and impaired
