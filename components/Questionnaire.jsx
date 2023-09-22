@@ -7,7 +7,8 @@ const Questionnaire = () => {
         <li>2. Speak with a trial coordinator</li>
       </ol>
       <a
-        href="#"
+        href="https://forms.gle/RjRu51odcqmDtVNW8"
+        target="_blank"
         className="bg-red-700 hover:bg-red-800 px-10 py-2 w-full text-center rounded-full transition-colors ease-in-out delay-50 font-bold text-lg"
       >
         Click Here

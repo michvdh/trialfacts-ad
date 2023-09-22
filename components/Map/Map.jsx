@@ -20,7 +20,10 @@ const Map = () => {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
         <Marker position={position}>
-          <Popup>Trial Location</Popup>
+          <Popup>
+            Cumberland Campus, The University of Sydney, 75 East St Lidcombe,
+            NSW
+          </Popup>
         </Marker>
       </MapContainer>
     </div>

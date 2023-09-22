@@ -38,14 +38,9 @@ export default function Home() {
             <div className="relative w-full h-48 2xs:h-60 sm:h-96 lg:w-1/2 2xl:w-3/5 mb-8 drop-shadow-lg lg:float-right lg:ml-8">
               <Image
                 src="/images/stock-image.PNG"
-                // width={500}
-                // height={500}
-                // sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                // sizes="100vw"
                 fill
                 objectFit="cover"
-                alt="picture"
-                // className="mb-8 drop-shadow-lg lg:float-right lg:ml-8"
+                alt="Senior exercising"
               />
             </div>
 
